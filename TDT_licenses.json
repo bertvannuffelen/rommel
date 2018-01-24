@@ -4,6 +4,7 @@
 		"identifier": "http://purl.org/dc/terms/identifier",
 		"seeAlso": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
 		"sameAs" : "http://www.w3.org/2002/07/owl#sameAs",
+		"dctype" : "http://purl.org/dc/terms/type",
 		"comment": "http://www.w3.org/2000/01/rdf-schema#comment",
 		"cc": "http://creativecommons.org/ns#",
 		"permits": {
@@ -25,7 +26,9 @@
 		"@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
 		"@type": [
 			"http://creativecommons.org/ns#License",
-			"http://purl.org/dc/terms/LicenseDocument",
+			"http://purl.org/dc/terms/LicenseDocument"
+		],
+		"dctype": [
 			"http://purl.org/adms/licencetype/Attribution"
 		],
 		"permits": [
@@ -42,7 +45,9 @@
 		"@id": "http://data.vlaanderen.be/id/licentie/modellicentie-hergebruik-tegen-vergoeding/v1.0",
 		"@type": [
 			"http://creativecommons.org/ns#License",
-			"http://purl.org/dc/terms/LicenseDocument",
+			"http://purl.org/dc/terms/LicenseDocument"
+		],
+		"dctype": [
                         "http://purl.org/adms/licencetype/NominalCost",
                         "http://purl.org/adms/licencetype/Attribution"
 		],
@@ -61,6 +66,9 @@
 		"@type": [
 			"http://creativecommons.org/ns#License",
 			"http://purl.org/dc/terms/LicenseDocument"
+		],
+		"dctype": [
+			"http://purl.org/adms/licencetype/PublicDomain"
 		],
 		"permits": [
 			"cc:Reproduction",
