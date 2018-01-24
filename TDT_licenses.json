@@ -21,7 +21,7 @@
 	},
 	"@graph": [{
 		"identifier": "vlaanderen-gratis-hergebruik",
-		"title": "Modellicentie voor gratis hergebruik"
+		"title": "Modellicentie voor gratis hergebruik",
 		"@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
 		"@type": [
 			"http://creativecommons.org/ns#License",
@@ -74,6 +74,6 @@
 		],
 		"comment": "",
 		"seeAlso": "https://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/cc0",
-                "sameAs: "https://creativecommons.org/publicdomain/zero/1.0/"
+                "sameAs": "https://creativecommons.org/publicdomain/zero/1.0/"
 	}]
 }
