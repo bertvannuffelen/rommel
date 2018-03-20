@@ -1,3 +1,3 @@
-Conceptscheme;Concept;PrefLabel;Definition
-adresstatus;1;actief;Het adres is actief
-adresstatus;2;gehistoreerd;Het adres is niet meer actief
+Conceptscheme;Concept;PrefLabel;Definition;URI
+gemeentenaamstatus;1;actief;Het adres is actief;http://data.vlaanderen.be/id/concept/gemeentenaamstatus/1
+gemeentenaamstatus;2;gehistoreerd;Het adres is niet meer actief;http://data.vlaanderen.be/id/concept/gemeentenaamstatus/2
